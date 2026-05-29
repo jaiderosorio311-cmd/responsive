@@ -1,0 +1,82 @@
+@media(max-width:768px){
+
+    section{
+        padding:70px 15px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        gap:15px;
+    }
+
+    .menu{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .overlay-content{
+        text-align:center;
+    }
+
+    .overlay-content h1{
+        font-size:2rem;
+        line-height:1.3;
+    }
+
+    .overlay-content p{
+        font-size:1rem;
+    }
+
+    .slider{
+        height:85vh;
+    }
+
+    .titulo-section h2,
+    .servicios-title h2,
+    .contact-title h2,
+    .about-text h2{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .titulo-section p,
+    .servicios-title p,
+    .about-text p{
+        text-align:center;
+    }
+
+    .about{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .contact-container{
+        padding:25px 20px;
+    }
+
+    .contacto-correos{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+
+    .correo-btn{
+        width:100%;
+        max-width:320px;
+    }
+
+    .grid-galeria,
+    .servicios-grid{
+        grid-template-columns:1fr;
+    }
+
+    .card,
+    .servicio-card{
+        width:100%;
+        margin:auto;
+    }
+}

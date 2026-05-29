@@ -1,0 +1,41 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+    color:#222;
+    overflow-x:hidden;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+section{
+    width:100%;
+    padding:90px 20px;
+}
+
+.container,
+.contenedor,
+.servicios-container,
+.contact-container{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
